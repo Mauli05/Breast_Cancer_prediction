@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction output</title>
+</head>
+
+<body>
+    <style>
+        body {background-color: rgb(98, 197, 155);
+            background-image: url("C:\Users\HP\Desktop\Data Science\Assignments\Flask Assignment\Breast_cancer\Statics\background.jpg");
+            background-attachment: fixed;
+            background-size: cover;
+            }
+    </style> 
+        <center>
+            <h1> Predict Cancer for the Person</h1>
+        {%if data == 1 %}
+            <h2 style="color:rgb(74, 7, 85);">Patient hast'n Cancer : Benign Type</h2>
+        {% comment %} <img src="C:\Users\HP\Desktop\Data Science\Assignments\Flask Assignment\Breast_cancer\Statics\cancertype.png" alt="Cancer Type"> {% endcomment %}
+        {%else%}
+            <h2 style="color:rgb(101, 13, 93);">Patient has Cancer : Malignant Type</h2>
+        {% comment %} <img src="C:\Users\HP\Desktop\Data Science\Assignments\Flask Assignment\Breast_cancer\Statics\cancertype.png" alt="Cancer Type"> {% endcomment %}
+        {%endif%}
+        </center>
+</body text="black">
+
+</html>
